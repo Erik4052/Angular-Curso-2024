@@ -1,0 +1,10 @@
+@if(!finishedAuthCheck()){
+<h1>
+  loading
+</h1>
+}
+
+@if(finishedAuthCheck()){
+<router-outlet></router-outlet>
+
+}
